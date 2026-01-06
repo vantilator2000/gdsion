@@ -1,6 +1,7 @@
 name: Build Extension - Windows
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       git-base-ref:
